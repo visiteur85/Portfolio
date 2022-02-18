@@ -1,5 +1,4 @@
-
-export type languagesPropsType = {
+ type languagesPropsType = {
     english: OneLanguageType
     russian: OneLanguageType
 }
