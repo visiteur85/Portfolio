@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import './App.css';
 import {Header} from "./Header/Header";
+import {Main} from "./main/Main";
 
 
 
@@ -8,7 +9,7 @@ import {Header} from "./Header/Header";
 
 
 
-//https://www.youtube.com/watch?v=VcvIVZGQTPw 32:28
+//https://www.youtube.com/watch?v=VcvIVZGQTPw 1 27 02
 function App() {
 
     //for multi languages
@@ -23,6 +24,7 @@ function App() {
   return (
     <div className="App">
         <Header/>
+        <Main/>
         {/*<Header language={language}/>*/}
         <div>
 

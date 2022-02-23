@@ -1,0 +1,18 @@
+
+
+
+.mainBlock {
+    height: 100vh;
+    background-color: #343a40;
+}
+
+.someText {
+    width: 300px;
+    background-color: whitesmoke ;
+}
+
+.picture {
+    width: 300px;
+    height: 400px;
+    background-color: whitesmoke ;
+}
