@@ -16,7 +16,7 @@ function App() {
 //     let [language, setlangeage] = useState(languages.russian)
 //
 // const changeHandler = () => {
-//     language === languages.russian ? setlangeage(languages.english) : setlangeage(languages.russian)
+//     language === languages.russian ? setlangeage(languages.english) : setlangeage(languages.russia!!!!!! )
 //
 //
 // }
