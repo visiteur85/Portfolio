@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import './App.css';
 import {Header} from "./Header/Header";
 import {Main} from "./main/Main";
+import {Skills} from "./Skills/Skills";
 
 
 
@@ -25,6 +26,7 @@ function App() {
     <div className="App">
         <Header/>
         <Main/>
+        <Skills/>
         {/*<Header language={language}/>*/}
         <div>
 
