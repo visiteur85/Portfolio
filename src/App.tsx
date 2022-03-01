@@ -4,6 +4,7 @@ import {Header} from "./Header/Header";
 import {Main} from "./main/Main";
 import {Skills} from "./Skills/Skills";
 import {Works} from "./MyWorks/Works";
+import {Job} from "./Job/Job";
 
 
 
@@ -29,10 +30,9 @@ function App() {
         <Main/>
         <Skills/>
         <Works/>
+        <Job/>
         {/*<Header language={language}/>*/}
-        <div>
 
-        </div>
 {/*<button onClick={changeHandler}>x</button>*/}
     </div>
   );

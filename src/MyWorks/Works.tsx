@@ -13,11 +13,6 @@ export const Works = () => {
                     <Work/>
                     <Work/>
 
-
-
-
-
-
                 </div>
 
             </div>

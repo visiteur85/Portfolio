@@ -1,9 +1,8 @@
 .worksBlock {
-    /*height: 0vh;*/
+    height: 100vh;
     background-color: #343a40;
     padding: 50px 0px;
 
-    border: 1px solid red;
 
 }
 
@@ -19,7 +18,7 @@
 }
 
 .works {
-    /*border: 1px solid;*/
+    border: 1px solid;
     width: 100%;
     display: flex;
     justify-content: space-between;
