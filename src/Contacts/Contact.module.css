@@ -1,0 +1,25 @@
+.contBlock {
+    height: 100vh;
+    background-color: #343a40;
+}
+
+.forms {
+
+    width:80%;
+    margin: 0 auto;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.title {
+    background-color: coral;
+}
+
+.widthForms {
+    width: 100%;
+
+}
+

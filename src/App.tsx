@@ -5,6 +5,7 @@ import {Main} from "./main/Main";
 import {Skills} from "./Skills/Skills";
 import {Works} from "./MyWorks/Works";
 import {Job} from "./Job/Job";
+import {Contacts} from "./Contacts/Contacts";
 
 
 
@@ -31,6 +32,7 @@ function App() {
         <Skills/>
         <Works/>
         <Job/>
+        <Contacts/>
         {/*<Header language={language}/>*/}
 
 {/*<button onClick={changeHandler}>x</button>*/}
