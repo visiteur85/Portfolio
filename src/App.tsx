@@ -6,6 +6,7 @@ import {Skills} from "./Skills/Skills";
 import {Works} from "./MyWorks/Works";
 import {Job} from "./Job/Job";
 import {Contacts} from "./Contacts/Contacts";
+import {Footer} from "./footer/Footer";
 
 
 
@@ -33,6 +34,7 @@ function App() {
         <Works/>
         <Job/>
         <Contacts/>
+        <Footer/>
         {/*<Header language={language}/>*/}
 
 {/*<button onClick={changeHandler}>x</button>*/}
