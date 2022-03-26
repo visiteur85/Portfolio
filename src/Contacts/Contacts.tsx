@@ -8,11 +8,16 @@ export const Contacts = () => {
             <div className={styleContainer.container}>
                <div className={s.forms}>
                    <h2 className={s.title}>Контакты</h2>
-                   <div className={s.diffForms}>
-                       <div> <input className={s.widthForms} type="text"/></div>
-                       <div><input className={s.widthForms} type="text"/></div>
-                       <div> <textarea className={s.widthForms} name="" id="" ></textarea></div>
-                   </div>
+                   <form className={s.diffForms}>
+                        <input className={s.widthForms} type="text"/>
+                       <input className={s.widthForms} type="text"/>
+                        <textarea className={s.widthForms} name="" id="" ></textarea>
+                   </form>
+                   {/*<div className={s.diffForms}>*/}
+                   {/*    <div> <input className={s.widthForms} type="text"/></div>*/}
+                   {/*    <div><input className={s.widthForms} type="text"/></div>*/}
+                   {/*    <div> <textarea className={s.widthForms} name="" id="" ></textarea></div>*/}
+                   {/*</div>*/}
                    {/*<div>*/}
                    <button>Отправить</button>
                        {/*</div>*/}
