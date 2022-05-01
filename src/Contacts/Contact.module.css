@@ -1,25 +1,38 @@
 .contBlock {
-    height: 100vh;
     background-color: #343a40;
+}
+
+.conContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.title {
+    background-color: coral;
 }
 
 .forms {
 
-    width:80%;
-    margin: 0 auto;
-    height: 80%;
+    width: 50%;
+    background-color: #ffc107;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
 
 }
-.title {
-    background-color: coral;
-}
+
+
 
 .widthForms {
     width: 100%;
 
 }
+
+.subBut {
+    padding: 10px 20px;
+    background-color: #43fffa;
+
+
+}
+
 

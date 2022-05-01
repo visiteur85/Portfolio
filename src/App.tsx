@@ -14,17 +14,10 @@ import {Footer} from "./footer/Footer";
 
 
 
-// https://www.youtube.com/watch?v=3wTuWyNwFOU 00:13
+// https://www.youtube.com/watch?v=3wTuWyNwFOU 00:27
 function App() {
 
-    //for multi languages
-//     let [language, setlangeage] = useState(languages.russian)
-//
-// const changeHandler = () => {
-//     language === languages.russian ? setlangeage(languages.english) : setlangeage(languages.russia!!!!!! )
-//
-//
-// }
+
 
   return (
     <div className="App">
@@ -35,9 +28,9 @@ function App() {
         <Job/>
         <Contacts/>
         <Footer/>
-        {/*<Header language={language}/>*/}
 
-{/*<button onClick={changeHandler}>x</button>*/}
+
+
     </div>
   );
 }
