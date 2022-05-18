@@ -4,3 +4,8 @@
     display: flex;
     justify-content: space-between;
 }
+
+a {
+    color: #72b626 ;
+    text-decoration: none;
+}
