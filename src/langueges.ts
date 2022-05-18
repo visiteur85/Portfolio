@@ -6,17 +6,20 @@
 export type OneLanguageType = {
     hello: string
     buy:string
+    main:string
 
 }
 
 export const languages: languagesPropsType = {
     english: {
         hello: "hello",
-        buy: "buy"
+        buy: "buy",
+        main:"main"
     },
     russian: {
         hello: "привет",
-        buy: "пока"
+        buy: "пока",
+        main:"Главная"
 
     }
 

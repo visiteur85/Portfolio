@@ -13,12 +13,22 @@ import {Footer} from "./footer/Footer";
 
 
 // https://www.youtube.com/watch?v=3wTuWyNwFOU 00:27
-function App() {
 
+export type LenguagesType = "russian" | "english";
+function App() {
+    //1.создаю локальный стэйт, значение по умолчанию русский
+let [language, setLanguage] = useState<LenguagesType>("russian");
+//2. создаю функцию, которая меняет этот стэйт в зависимсоти от входящего параметра
+const changeLanguage = (lang:LenguagesType) => {
+  setLanguage(lang)
+}
 
     return (
         <div className="App">
-            <Header/>
+            {/*3.передаю значение стэйта ниже по дереву + коллбэк,
+            который вернет мне параметра для функции,*
+            кг*которая меняет локальный стэйт*/}
+            <Header language={language} changeLanguage={changeLanguage} />
             <Main/>
             <Skills/>
             <Works/>
