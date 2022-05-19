@@ -4,8 +4,9 @@ import styleContainer from "./../common/styles/Container.module.css"
 import {Work} from "./Work/Work";
 import {v1} from "uuid";
 // import {Skill} from "./Skill/Skill";
-// https://www.youtube.com/watch?v=3wTuWyNwFOU&t=1s  остановились на 55:00 шрифты
-
+// https://www.youtube.com/watch?v=3wTuWyNwFOU&t=1s
+// остановились на 1^19
+//https://www.youtube.com/watch?v=3wTuWyNwFOU
 export const Works = () => {
 
     let myWorks = [
