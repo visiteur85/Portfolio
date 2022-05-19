@@ -16,19 +16,21 @@ import {Footer} from "./footer/Footer";
 
 export type LenguagesType = "russian" | "english";
 function App() {
-    //1.создаю локальный стэйт, значение по умолчанию русский
-let [language, setLanguage] = useState<LenguagesType>("russian");
-//2. создаю функцию, которая меняет этот стэйт в зависимсоти от входящего параметра
-const changeLanguage = (lang:LenguagesType) => {
-  setLanguage(lang)
-}
+//     //1.создаю локальный стэйт, значение по умолчанию русский
+// let [language, setLanguage] = useState<LenguagesType>("russian");
+// //2. создаю функцию, которая меняет этот стэйт в зависимсоти от входящего параметра
+// const changeLanguage = (lang:LenguagesType) => {
+//   setLanguage(lang)
+// }
 
     return (
         <div className="App">
             {/*3.передаю значение стэйта ниже по дереву + коллбэк,
             который вернет мне параметра для функции,*
             кг*которая меняет локальный стэйт*/}
-            <Header language={language} changeLanguage={changeLanguage} />
+            <Header
+                // language={language} changeLanguage={changeLanguage}
+            />
             <Main/>
             <Skills/>
             <Works/>

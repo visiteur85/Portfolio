@@ -16,7 +16,7 @@ export const Works = () => {
         <div className={s.worksBlock}>
             <div className={`${styleContainer.container} ${s.worksContainer}`}>
                 <div className={s.title}>
-                    <h2 >My Works</h2></div>
+                    <h2>Projects</h2></div>
 
                 <div className={s.works}>
                     {myWorks.map(m =>

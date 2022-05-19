@@ -15,16 +15,43 @@
 }
 
 .title {
+    color: #72b626;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: capitalize;
+    /*text-shadow: #666 0px 0 10px;*/
+    margin: 0;
+    line-height: 1.2;
+    margin: 0 0 30px;
+    position: relative;
+}
+
+.title::before {
+    content: "";
+    background: #72b626 ;
+    width: 100px;
+    height: 1px;
+    position: absolute;
+    bottom: -30px;
+    transform: translate(-50%, 50%);
+    left: 50%
+
+
+}
+.title h2 {
+  margin: 0;
+
 
 }
 
-.title h2 {
-    color: #72b626
-
+.title :first-letter {
+    color: #666;
+    /*text-shadow: #72b626 1px 0 10px;*/
 }
 
 .works {
-    border: 1px solid;
+    /*border: 1px solid;*/
     width: 100%;
     display: flex;
     justify-content: space-around;
