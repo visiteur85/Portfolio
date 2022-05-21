@@ -9,12 +9,12 @@ type PropsType = {
 export const Work = (props: PropsType) => {
     return (
         <div className={s.work}>
-            <div className={s.background}>
-                <button>Смотреть</button>
+            <div className={s.image}>
+                <a className={s.viewBtn}>Смотреть</a>
             </div>
             <div className={s.projectDescription}>
-                <h3>{props.title}</h3>
-                <p>{props.description}</p>
+                <h3 className={s.workTitle}>{props.title}</h3>
+                <p className={s.descrWork}>{props.description}</p>
             </div>
 
 
