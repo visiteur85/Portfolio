@@ -1,5 +1,5 @@
 import React from 'react';
-import s from "./Works.module.css";
+import s from "./Works.module.scss";
 import styleContainer from "./../common/styles/Container.module.css"
 import {Work} from "./Work/Work";
 import {v1} from "uuid";
@@ -18,7 +18,12 @@ export const Works = () => {
 
     let myWorks = [
         {id: v1(), title: "Social network", description: "Краткое описание1", image: social.backgroundImage},
-        {id: v1(), title: "Todolist", description: "Краткое описание1  описание1 ssdfwqerwqer", image: todo.backgroundImage},
+        {
+            id: v1(),
+            title: "Todolist",
+            description: "Краткое описание1  описание1 ssdfwqerwqer",
+            image: todo.backgroundImage
+        },
     ]
     return (
         <div className={s.worksBlock}>
