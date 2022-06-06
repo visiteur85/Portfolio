@@ -12,7 +12,7 @@ import {Footer} from "./footer/Footer";
 // https://themeforest.net/item/tunis-personal-portfolio/26761598
 
 
-// https://www.youtube.com/watch?v=3wTuWyNwFOU 2:13
+// https://www.youtube.com/watch?v=3wTuWyNwFOU 2:25
 
 export type LenguagesType = "russian" | "english";
 function App() {
