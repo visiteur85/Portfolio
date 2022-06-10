@@ -1,7 +1,7 @@
 import React from 'react';
 import s from "./Header.module.css"
 import {Nav} from "../Nav/Nav";
-import {LenguagesType} from "../App";
+// import {LanguagesType} from "../App";
 
 
 //4. получаю из апп коллбэк и значение стэйта локального
