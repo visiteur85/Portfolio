@@ -1,0 +1,40 @@
+@import "../../styles/sass/variables";
+.title {
+  color: $titleColor;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  text-transform: capitalize;
+  /*text-shadow: #666 0px 0 10px;*/
+  margin: 0;
+  line-height: 1.2;
+  margin: 0 0 30px;
+  position: relative;
+
+  .title h2 {
+    margin: 0;
+  }
+
+  &::before {
+    content: "";
+    background: $titleColor;
+    width: 100px;
+    height: 1px;
+    position: absolute;
+    bottom: -30px;
+    transform: translate(-50%, 50%);
+    left: 50%
+  }
+
+  :first-letter {
+    color: $firstTitleLetterH2Color;
+    /*text-shadow: #72b626 1px 0 10px;*/
+  }
+}
+
+
+
+
+
+
+

@@ -1,12 +1,12 @@
 import React from 'react';
-import s from "./Title.module.css";
+import s from "./Title.module.scss";
 
 
 type TitlePropsType = {
-    nameOfTitle:string
+    nameOfTitle: string
 }
 
-export const Title = (props:TitlePropsType) => {
+export const Title = (props: TitlePropsType) => {
 
 
     return (

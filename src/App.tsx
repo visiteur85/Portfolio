@@ -1,4 +1,3 @@
-import React, {useState} from 'react';
 import './App.css';
 import {Header} from "./Header/Header";
 import {Main} from "./main/Main";
@@ -8,18 +7,18 @@ import {Job} from "./Job/Job";
 import {Contacts} from "./Contacts/Contacts";
 import {Footer} from "./footer/Footer";
 
-//hello from mac
+
 // https://themeforest.net/item/tunis-personal-portfolio/26761598
 
 
-// https://www.youtube.com/watch?v=3wTuWyNwFOU 2:25
+// https://www.youtube.com/watch?v=3wTuWyNwFOU 2:48
 
-export type LenguagesType = "russian" | "english";
+// export type LanguagesType = "russian" | "english";
 function App() {
 //     //1.создаю локальный стэйт, значение по умолчанию русский
-// let [language, setLanguage] = useState<LenguagesType>("russian");
+// let [language, setLanguage] = useState<LanguagesType>("russian");
 // //2. создаю функцию, которая меняет этот стэйт в зависимсоти от входящего параметра
-// const changeLanguage = (lang:LenguagesType) => {
+// const changeLanguage = (lang:LanguagesType) => {
 //   setLanguage(lang)
 // }
 
