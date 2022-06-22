@@ -1,4 +1,5 @@
 @import "../../common/styles/sass/variables";
+@import "../../common/styles/sass/mixines";
 
 .work {
   width: 500px;
@@ -52,29 +53,31 @@
     align-items: flex-start;
 
     .workTitle {
-      font-family: 'Poppins', sans-serif;
-      font-size: 26px;
-      font-weight: 600;
+      @include text($fontFamilyPoppins, 26px, 1.2, 600);
+      color: $allTextColor;
+
       padding-bottom: 22px;
       text-transform: uppercase !important;
       margin-bottom: 0 !important;
-      line-height: 1.2;
-      color: $titleH3Color;
 
       &::first-letter {
-        color: $firstTitleLetterH3Color;
+        color: $titleColor;
       }
 
     }
 
     .descrWork {
-      font-family: 'Open Sans', sans-serif;
+
+      @include text($fontFamilyOpenSans, 15px, 1.6, 500);
+      //font-family: 'Open Sans', sans-serif;
+      //font-size: 15px;
+      //line-height: 1.6;
+      //font-weight: 500;
+      color: $allTextColor;
+
+
       margin-bottom: 1rem !important;
       margin-top: 0;
-      color: $allTextColor;
-      font-size: 15px;
-      font-weight: 500;
-      line-height: 1.6;
 
       /*word-wrap: break-word*/
 
