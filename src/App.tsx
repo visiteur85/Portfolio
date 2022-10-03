@@ -1,45 +1,21 @@
-import './App.css';
-import {Header} from "./Header/Header";
-import {Main} from "./main/Main";
-import {Skills} from "./Skills/Skills";
-import {Works} from "./MyWorks/Works";
-import {Job} from "./Job/Job";
-import {Contacts} from "./Contacts/Contacts";
-import {Footer} from "./footer/Footer";
+import React from 'react';
+import s from './App.module.scss'
+import {Menu} from "./Menu/Menu";
+import {Navigates} from "./Routes/Navigates";
+import {Photo} from "./Photo/Photo";
 
-
-// https://themeforest.net/item/tunis-personal-portfolio/26761598
-
-
-// https://www.youtube.com/watch?v=3wTuWyNwFOU 2:48
-
-// export type LanguagesType = "russian" | "english";
-function App() {
-//     //1.создаю локальный стэйт, значение по умолчанию русский
-// let [language, setLanguage] = useState<LanguagesType>("russian");
-// //2. создаю функцию, которая меняет этот стэйт в зависимсоти от входящего параметра
-// const changeLanguage = (lang:LanguagesType) => {
-//   setLanguage(lang)
-// }
+export function App() {
 
     return (
-        <div className="App">
-            {/*3.передаю значение стэйта ниже по дереву + коллбэк,
-            который вернет мне параметра для функции,*
-            кг*которая меняет локальный стэйт*/}
-            <Header
-                // language={language} changeLanguage={changeLanguage}
-            />
-            <Main/>
-            <Skills/>
-            <Works/>
-            <Job/>
-            <Contacts/>
-            <Footer/>
-
-
+        <div className={s.wrapper}>
+            <div className={s.leftBox}>
+                <Photo/>
+            </div>
+            <div className={s.rightBox}>
+                <Menu/>
+                <Navigates/>
+            </div>
         </div>
+
     );
 }
-
-export default App;
