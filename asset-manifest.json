@@ -1,16 +1,14 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.0c593d0e.css",
-    "main.js": "/Portfolio/static/js/main.986edc6e.js",
+    "main.js": "/Portfolio/static/js/main.41cef79f.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/myAvatar.jpg": "/Portfolio/static/media/myAvatar.d6372a1d8c1ce60398df.jpg",
     "static/media/CV.pdf": "/Portfolio/static/media/CV.d82547ae91c07f6b4665.pdf",
     "static/media/cardsTraining.png": "/Portfolio/static/media/cardsTraining.f8df231e309456741f05.png",
-    "static/media/formik.svg": "/Portfolio/static/media/formik.2df367655623c731631a005ebec188ea.svg",
     "static/media/todo.png": "/Portfolio/static/media/todo.134e56b581d351ab6b2d.png",
     "static/media/restAPI.svg": "/Portfolio/static/media/restAPI.b6ebe9498ac6e29cf8cb23db0795b560.svg",
     "static/media/react1.svg": "/Portfolio/static/media/react1.6534ead3ebe3859845d289dc60d11183.svg",
-    "static/media/jest.svg": "/Portfolio/static/media/jest.2b515a032b9e742937315866a4c0fe00.svg",
     "static/media/reduxToolkit.svg": "/Portfolio/static/media/reduxToolkit.1db5fbd3215f9c0a6dcabe6e14b56ef5.svg",
     "static/media/typeScript.svg": "/Portfolio/static/media/typeScript.6e8451e8e3c574b1132000fa01010803.svg",
     "static/media/redux.svg": "/Portfolio/static/media/redux.3702c02bd1a43114e4fcd768e627f205.svg",
@@ -20,11 +18,11 @@
     "static/media/html.svg": "/Portfolio/static/media/html.b26a480f403b62d4bf72865844bc2810.svg",
     "static/media/css.svg": "/Portfolio/static/media/css.1a81e060f9e38d76d69cfa15161fda7c.svg",
     "main.0c593d0e.css.map": "/Portfolio/static/css/main.0c593d0e.css.map",
-    "main.986edc6e.js.map": "/Portfolio/static/js/main.986edc6e.js.map",
+    "main.41cef79f.js.map": "/Portfolio/static/js/main.41cef79f.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0c593d0e.css",
-    "static/js/main.986edc6e.js"
+    "static/js/main.41cef79f.js"
   ]
 }
